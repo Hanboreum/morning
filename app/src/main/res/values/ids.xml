@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="layoutTodo" type="id" />
+    <item name="checkBox" type="id" />
+    <item name="deleteButton" type="id" />
+    <item name="TTdo" type="id" />
+    <item name="TWeather" type="id" />
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fire"
+            android:layout_width="430dp"
+            android:layout_height="170dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/fire" />
+
+        <ImageView
+            android:id="@+id/rain"
+            android:layout_width="430dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/fire"
+            android:layout_alignParentTop="@+id/grain"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/rain" />
+
+        <ImageView
+            android:id="@+id/grain"
+            android:layout_width="430dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/rain"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/grain" />
+
+        <TextView
+            android:id="@+id/Amenu"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/grain"
+            android:layout_marginBottom="-68dp"
+
+            android:text="⏰"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/Mmenu"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignBottom="@+id/grain"
+
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="-76dp"
+            android:text="🎵"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/Tmenu"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/grain"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+
+            android:layout_marginBottom="-68dp"
+            android:text="📰"
+            android:textSize="50dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

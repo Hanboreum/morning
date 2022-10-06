@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        >
+
+
+        <TextView
+            android:id="@+id/TWeaher"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="    날씨"
+            android:textColor="#000000"
+            android:textSize="30dp"
+
+            />
+        <TextView
+            android:id="@+id/TNews"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="     뉴스"
+            android:textColor="#347289"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/TTodo"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:text="ToDoList"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_alignParentRight="true"/>
+
+        <ImageView
+            android:id="@+id/naver"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="left"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"
+            android:src="@drawable/naver" />
+
+        <ImageView
+            android:id="@+id/daum"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/daum" />
+
+        <ImageView
+            android:id="@+id/yahoo"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/yahoo"
+            android:layout_marginTop="50dp"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/bbc"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/daum"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/daum"
+            android:padding="10dp"
+
+            android:src="@drawable/bbc" />
+
+        <ImageView
+            android:id="@+id/nbc"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/nbc"
+            android:layout_below="@+id/daum"
+            android:layout_centerInParent="true"
+            android:padding="10dp"/>
+
+        <ImageView
+            android:id="@+id/cnn"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/daum"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/daum"
+            android:padding="10dp"
+            android:src="@drawable/cnn" />
+
+        <ImageView
+            android:id="@+id/sbs"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/daum"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="147dp"
+            android:padding="10dp"
+            android:src="@drawable/sbs" />
+
+        <ImageView
+            android:id="@+id/mbc"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/daum"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="141dp"
+            android:padding="10dp"
+            android:src="@drawable/mbc" />
+
+        <ImageView
+            android:id="@+id/kbs"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_below="@+id/daum"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="138dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:src="@drawable/kbs" />
+
+        <TextView
+            android:id="@+id/Amenu"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sbs"
+            android:layout_marginBottom="-109dp"
+            android:text="⏰"
+            android:textColor="#000000"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/Mmenu"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_alignBottom="@+id/mbc"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="-116dp"
+            android:text="🎵"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/Tmenu"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/cnn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="-248dp"
+            android:text="📰"
+            android:textSize="50dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
